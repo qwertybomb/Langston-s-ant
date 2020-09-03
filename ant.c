@@ -3,15 +3,15 @@
 #include <stdbool.h>
 
 /* SDL2 headers */
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #define WINDOW_WIDTH (1920)
 #define WINDOW_HEIGHT (1080)
 #define SCALE (1)
 #define WIDTH (WINDOW_WIDTH/SCALE)
 #define HEIGHT (WINDOW_HEIGHT/SCALE)
-#define N_ANTS (2)
-#define STEPS_PER_FRAME (100)
+#define N_ANTS (4)
+#define STEPS_PER_FRAME (500)
 
 /* RL is for the regular Langston's ant */
 static const char turns[] =  "RLRL";
