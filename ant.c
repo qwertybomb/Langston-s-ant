@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
 	(void)argc;
 	(void)argv;
 
-	if(SDL_Init(SDL_INIT_VIDEO < 0))
+	if(SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
 		/* print error message to stderr */
 		perror(SDL_GetError());
